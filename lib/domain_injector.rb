@@ -24,7 +24,7 @@ module DomainInjector
   # )
   # p injector.node(:bar)
   #
-  # It can do the instantiation and injection recursively through your entire object graph.
+  # It does the instantiation and injection recursively through your entire object graph.
   # For example, if you have an object M that depends on A, I, H, e:
   #
   # class H
